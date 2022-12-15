@@ -1,0 +1,38 @@
+Create table Account_details (
+ACCT_NUMBER int primary key identity(11112881,1),
+ACCT_NAME varchar(20),
+ACCT_OPEN_DATE date,
+BRANCH Varchar(20))
+
+insert into Account_details values ('Rihan','2016/01/12','Jaipur')
+insert into Account_details values ('Sheetal','2017/08/11','GOA')
+insert into Account_details values ('Priyanka','2017/01/01','Chennai')
+insert into Account_details values ('Manik','2015/01/08','Agra')
+insert into Account_details values ('Veena','2021/01/01','Patna')
+insert into Account_details values ('Rohan','2019/07/01','Pune')
+insert into Account_details values ('Laxmi',GETDATE(),'rohatak')
+insert into Account_details values ('Jinal',GETDATE(),'Indore')
+
+Create table Account_details (
+ACCT_NUMBER int primary key identity(11112881,1),
+ACCT_NAME varchar(20),
+ACCT_OPEN_DATE date,
+BRANCH Varchar(20))
+
+insert into Account_details values ('Shubham','2015/12/09','MUMBAI')
+insert into Account_details values ('Rihan','2016/01/12','Jaipur')
+insert into Account_details values ('Sheetal','2017/08/11','GOA')
+insert into Account_details values ('Priyanka','2017/01/01','Chennai')
+insert into Account_details values ('Manik','2015/01/08','Agra')
+insert into Acco
+
+select * from Account_details
+select *, datediff (mm,'ACCT_NAME',getdate()) as age_date from Account_details;
+
+BULK INSERT Sales.Orders
+FROM '\\SystemX\DiskZ\Sales\data\orders.csv'
+WITH ( FORMAT = 'CSV');
+
+
+9763999519 akshay
+meet.google.com/itg-tryh-zkx
